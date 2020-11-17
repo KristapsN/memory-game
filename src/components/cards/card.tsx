@@ -19,7 +19,7 @@ const Card = ({ id, value, opened, clickHandler, checked }: Props) => {
 
         
 
-        <div className="col-md-3 cards--wraper">
+        <div className="col-md-3 col-xs-3 cards--wraper">
             {!checked ? (<div>
                 {opened ? (<div className="card--open" >
                    <img className="card" src={value} alt=""/> 

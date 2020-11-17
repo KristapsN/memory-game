@@ -96,17 +96,17 @@ function Memory() {
 
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
 
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 col-xs-6">
             <ButtonSec
               buttonHandler={() => clickHandler()}
               buttonName="Restart"
             />
 
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-xs-3">
             
           </div>
         </div>
@@ -117,7 +117,7 @@ function Memory() {
 
 
       <div className="container">
-        <div className="row center-md around-md">
+        <div className="row center-md around-md center-xs around-xs">
           <div className="wrapper">
 
 

@@ -9,3 +9,12 @@
   position: absolute;
   width: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .wrapper{
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+}
