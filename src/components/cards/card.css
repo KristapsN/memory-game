@@ -1,0 +1,17 @@
+.card--open{
+    
+   
+    background-color: rgb(7, 224, 98);
+    margin: 10px;
+    padding-top: 85%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    border-radius: 8px;
+    left: 0;
+    top: 0;
+}

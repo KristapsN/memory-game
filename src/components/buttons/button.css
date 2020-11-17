@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.button--wrapper__start{
+    background-color: rgba(47, 79, 79, 0.9);
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top:0px; 
+    bottom:0px;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+
+}
+.title{
+    font-family: 'Dancing Script', cursive;
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    color: rgb(214, 214, 214);
+}
+.paragraph{
+    color: rgb(182, 182, 182);
+    margin: 0 0 20px 0;
+}
+.button__start{
+    background-color: lightsalmon;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: rgb(41, 41, 41);
+    cursor: pointer;
+   
+}
+.button__start:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.button--content{
+    margin-top: 15%;
+}
+.button__restart{
+    margin: 10px;
+    border-radius: 5px;
+    
+}
